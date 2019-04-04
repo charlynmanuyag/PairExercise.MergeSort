@@ -26,9 +26,9 @@ describe('Merge function', function() {
 
 describe('Merge Sort function', function() {
   it('is able to merge and sort the array given', function() {
-    // expect(mergeSort([])).toEqual([]);
-    // expect(mergeSort([1])).toEqual([1]);
-    // expect(mergeSort([1, 7, 2, 9, 3])).toEqual([1, 2, 3, 7, 9]);
+    expect(mergeSort([])).toEqual([]);
+    expect(mergeSort([1])).toEqual([1]);
+    expect(mergeSort([1, 7, 2, 9, 3])).toEqual([1, 2, 3, 7, 9]);
     expect(mergeSort([8, 7, 3, 1])).toEqual([1, 3, 7, 8]);
   });
 });
